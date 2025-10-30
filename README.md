@@ -18,12 +18,16 @@ This project includes a modern, single-page web design with dedicated spaces for
 - ⚙️ **Open Source & Easy to Extend** — customize styles and scripts freely  
 
 ---
-##  Contirbuters 
+## 🧑‍🤝‍🧑 Contributors
 
-|Reda Fouad |202010856 | @ShabeebReda |
-|Rahaf Nabil |202100819 | @rahafshehada |
-|Manar Mohamed |20195713 | @manar20195713 |
-|Fatema Jaafar |202207126 | @fatemayaqoob |
+| Name | GitHub ID | Profile Reference |
+|------|------------|------------------|
+| 🧑 Jane doe  | `@janedoe` | [https://github.com/janedoe](https://github.com/janedoe) |
+| 👩 John Smith | `@johnsmith` | [https://github.com/johnsmith](https://github.com/johnsmith) |
+| ✨ Amira Chen | `@amirachen` | [https://github.com/amirachen](https://github.com/amirachen) |
+| 🧠 (Add your name here) | `@yourusername` | [https://github.com/yourusername](https://github.com/yourusername) |
+| 🚀 (Add your name here) | `@yourusername` | [https://github.com/yourusername](https://github.com/yourusername) |
+
 
 
 
