@@ -1,0 +1,69 @@
+NEXUM SETUP GUIDE
+==================
+
+INSTALLATION INSTRUCTIONS
+--------------------------
+
+System Requirements:
+- Operating System: Windows 10/11, macOS 10.14+, Ubuntu 18.04+
+- RAM: 4GB minimum (8GB recommended)
+- Storage: 1GB free disk space
+- Network: Internet connection for initial setup and collaboration
+
+DOWNLOAD OPTIONS
+----------------
+
+Option 1: Stable Release (Recommended)
+- Download: nexum-1.0.2-stable.exe (Windows)
+- Download: nexum-1.0.2-stable.dmg (macOS)  
+- Download: nexum-1.0.2-stable.deb (Linux)
+- Size: ~85MB
+
+Option 2: Development Build
+- Download: nexum-dev-build.exe (Windows)
+- Download: nexum-dev-build.dmg (macOS)
+- Download: nexum-dev-build.AppImage (Linux)
+- Size: ~92MB
+- Note: May contain experimental features
+
+WINDOWS INSTALLATION
+--------------------
+
+1. Download nexum-1.0.2-stable.exe
+2. Right-click and "Run as administrator"
+3. Accept the license agreement
+4. Choose installation directory (default: C:\Program Files\Nexum)
+5. Select components to install:
+   ☑ Nexum Core Application
+   ☑ Desktop Shortcut
+   ☑ File Association (.nxm files)
+   ☐ Auto-start with Windows
+6. Click "Install" and wait for completion
+7. Launch Nexum from desktop shortcut
+
+macOS INSTALLATION
+------------------
+
+1. Download nexum-1.0.2-stable.dmg
+2. Double-click the .dmg file to mount
+3. Drag Nexum.app to Applications folder
+4. Open Applications and right-click Nexum
+5. Select "Open" (first time only due to Gatekeeper)
+6. Click "Open" in the security dialog
+7. Nexum will launch and begin initial setup
+
+LINUX INSTALLATION
+-------------------
+
+Ubuntu/Debian (.deb package):
+1. Download nexum-1.0.2-stable.deb
+2. Open terminal in download directory
+3. Run: sudo dpkg -i nexum-1.0.2-stable.deb
+4. Run: sudo apt-get install -f (if dependencies missing)
+5. Launch: nexum or search in applications
+
+Other Distributions (AppImage):
+1. Download nexum-1.0.2-stable.AppImage
+2. Make executable: chmod +x nexum-1.0.2-stable.AppImage
+3. Run: ./nexum-1.0.2-stable.AppImage
+4. Optional: Use AppImageLauncher for desktop integration

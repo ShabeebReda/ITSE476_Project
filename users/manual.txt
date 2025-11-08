@@ -1,0 +1,226 @@
+NEXUM USER MANUAL
+=================
+
+Table of Contents
+-----------------
+1. Introduction
+2. Getting Started
+3. Creating Your First Document
+4. Collaboration Features
+5. Document Management
+6. Advanced Features
+7. Troubleshooting
+8. Support and Resources
+
+1. INTRODUCTION
+===============
+
+Welcome to Nexum, the open-source collaborative documentation platform designed for teams, developers, and educators. Nexum enables real-time collaborative editing, version control, and seamless document management across multiple platforms.
+
+Key Features:
+- Real-time collaborative editing
+- Version control and revision history  
+- Cross-platform compatibility (Windows, macOS, Linux)
+- Open-source and completely free
+- Modern, responsive user interface
+- API integrations and extensibility
+
+2. GETTING STARTED
+==================
+
+System Requirements:
+- Operating System: Windows 10+, macOS 10.14+, or Linux (Ubuntu 18.04+)
+- RAM: 4GB minimum, 8GB recommended
+- Storage: 500MB free space
+- Network: Internet connection for collaboration features
+
+Installation:
+1. Download the latest stable release from the Users page
+2. Run the installer and follow the setup wizard
+3. Launch Nexum and create your account
+4. Verify your email address to enable all features
+
+First Launch:
+- The welcome screen will guide you through basic setup
+- Choose your preferred theme and language settings
+- Set up your user profile and organization details
+- Review privacy and collaboration preferences
+
+3. CREATING YOUR FIRST DOCUMENT
+===============================
+
+Quick Start:
+1. Click "New Document" from the main dashboard
+2. Choose a template or start from scratch
+3. Give your document a title and description
+4. Select privacy settings (private, team, or public)
+5. Begin writing using the rich text editor
+
+Document Structure:
+- Use headings (H1-H6) to organize content
+- Add images, tables, and code blocks as needed
+- Create links to other documents or external resources
+- Use tags and categories for better organization
+
+Formatting Options:
+- Bold, italic, underline text formatting
+- Bulleted and numbered lists
+- Code syntax highlighting
+- Mathematical equations (LaTeX support)
+- Embedded media and attachments
+
+4. COLLABORATION FEATURES
+=========================
+
+Inviting Collaborators:
+1. Open your document
+2. Click the "Share" button in the top toolbar
+3. Enter email addresses of team members
+4. Set permission levels (view, edit, or admin)
+5. Add a personal message if desired
+6. Send invitations
+
+Real-time Editing:
+- See collaborators' cursors and edits in real-time
+- Colored indicators show who is making changes
+- Chat function for discussing edits
+- Automatic conflict resolution for simultaneous edits
+
+Permission Levels:
+- Viewer: Can read and comment only
+- Editor: Can make changes and suggest edits
+- Admin: Full control including sharing and deletion
+
+Comments and Suggestions:
+- Highlight text and add comments
+- Suggest changes without directly editing
+- Reply to comments for threaded discussions
+- Resolve comments when addressed
+
+5. DOCUMENT MANAGEMENT
+======================
+
+Organization:
+- Create folders and subfolders
+- Use tags for cross-referencing
+- Star important documents for quick access
+- Search across all your documents
+
+Version Control:
+- Automatic saving every 30 seconds
+- Manual save checkpoints for major changes
+- View revision history and compare versions
+- Restore previous versions when needed
+
+Export Options:
+- PDF with formatting preserved
+- Microsoft Word (.docx)
+- HTML for web publishing
+- Markdown for developers
+- Plain text for universal compatibility
+
+Templates:
+- Use built-in templates for common document types
+- Create custom templates for your organization
+- Share templates with team members
+- Import templates from the community library
+
+6. ADVANCED FEATURES
+====================
+
+API Integration:
+- Connect with development tools and services
+- Automate document creation and updates
+- Sync with project management systems
+- Custom integrations using REST API
+
+Customization:
+- Personalize the interface with themes
+- Configure keyboard shortcuts
+- Set up custom document templates
+- Install community plugins and extensions
+
+Team Management:
+- Create and manage organizations
+- Set up team hierarchies and roles
+- Bulk user management and permissions
+- Usage analytics and reporting
+
+Automation:
+- Scheduled document backups
+- Automatic table of contents generation
+- Smart suggestions based on content
+- Integration with version control systems
+
+7. TROUBLESHOOTING
+==================
+
+Common Issues:
+
+Sync Problems:
+- Check internet connection
+- Refresh the application
+- Clear browser cache if using web version
+- Contact support if issues persist
+
+Performance Issues:
+- Close unused documents
+- Clear document cache
+- Check system resources
+- Update to the latest version
+
+Login Problems:
+- Verify email and password
+- Check for account suspension
+- Reset password if needed
+- Enable two-factor authentication
+
+Document Access:
+- Verify sharing permissions
+- Check organization membership
+- Contact document owner
+- Review privacy settings
+
+8. SUPPORT AND RESOURCES
+========================
+
+Getting Help:
+- FAQ page for common questions
+- Community forum for peer support
+- Video tutorials and guides
+- Email support: support@nexum.org
+
+Reporting Issues:
+- GitHub Issues: https://github.com/nexum/nexum/issues
+- Include system information and steps to reproduce
+- Attach screenshots or error logs when possible
+- Check existing issues before creating new ones
+
+Community:
+- Join our Discord server for real-time chat
+- Follow development updates on GitHub
+- Contribute to documentation improvements
+- Participate in beta testing programs
+
+Learning Resources:
+- Interactive tutorials for new users
+- Advanced tips and tricks blog
+- Webinar series for teams and organizations
+- Case studies from successful implementations
+
+Updates and Releases:
+- Automatic update notifications
+- Release notes for new features
+- Beta testing opportunities
+- Feedback collection for future improvements
+
+Contact Information:
+- General Support: support@nexum.org
+- Security Issues: security@nexum.org
+- Partnership Inquiries: partners@nexum.org
+- Community Manager: community@nexum.org
+
+Thank you for choosing Nexum for your collaborative documentation needs!
+
+Version: 1.0.2
+Last Updated: November 2025

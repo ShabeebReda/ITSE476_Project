@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nexum FAQ</title>
+<link rel="stylesheet" href="style.css">
+<style>
+    .faq-item {
+    margin-bottom: 1rem;
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius);
+    overflow: hidden;
+    }
+    
+    .faq-question {
+    background: var(--gray-50);
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: var(--transition);
+    }
+    
+    .faq-question:hover {
+    background: var(--gray-100);
+    }
+    
+    .faq-answer {
+    padding: 0 1.5rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+    background: var(--white);
+    }
+    
+    .faq-answer.active {
+    max-height: 200px;
+    padding: 1.5rem;
+    }
+    
+    .faq-toggle {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--primary);
+    transition: transform 0.3s ease;
+    }
+    
+    .faq-toggle.rotated {
+    transform: rotate(45deg);
+    }
+</style>
+</head>
+<body>
+<header>
+    <h1>Nexum FAQ</h1>
+    <nav>
+    <a href="index.html">Home</a>
+    <a href="users.html">Users</a>
+    <a href="contributors.html">Contributors</a>
+    </nav>
+</header>
+
+<main>
+    <!-- Intro Section -->
+    <section class="intro">
+    <h2>Frequently Asked Questions</h2>
+    <p>
+        Find answers to common questions about Nexum collaborative documentation platform.
+        If you can't find what you're looking for, feel free to contact our support team.
+    </p>
+    </section>
+
+    <!-- Getting Started -->
+    <section>
+    <h2>Getting Started</h2>
+    
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleFAQ(this)">
+        <span><strong>What is Nexum?</strong></span>
+        <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">
+        <p>Nexum is a free and open-source collaborative documentation platform that enables teams, developers, and educators to create and maintain project documentation together with real-time or version-controlled editing capabilities.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleFAQ(this)">
+        <span><strong>How do I get started with Nexum?</strong></span>
+        <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">
+        <p>Download the latest stable release from our Users page, install it on your system, and follow the quick start guide in our documentation. You can create your first collaborative document within minutes.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleFAQ(this)">
+        <span><strong>Is Nexum really free?</strong></span>
+        <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">
+        <p>Yes, Nexum is completely free and open-source under the MIT license. You can use it for personal, educational, or commercial purposes without any licensing fees.</p>
+        </div>
+    </div>
+    </section>
+
+    <!-- Technical Questions -->
+    <section>
+    <h2>Technical Questions</h2>
+    
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleFAQ(this)">
+        <span><strong>What platforms does Nexum support?</strong></span>
+        <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">
+        <p>Nexum supports Windows, macOS, and Linux distributions. We recently added Windows ARM support and expanded Linux compatibility. Mobile companion apps are currently in beta testing.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleFAQ(this)">
+        <span><strong>Can I use Nexum offline?</strong></span>
+        <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">
+        <p>Yes, Nexum works offline for individual document editing. For collaborative features, an internet connection is required to sync changes with team members in real-time.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleFAQ(this)">
+        <span><strong>How do I integrate Nexum with my existing workflow?</strong></span>
+        <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">
+        <p>Nexum offers APIs and integrations with popular development tools. You can export documents in various formats and integrate with version control systems like Git.</p>
+        </div>
+    </div>
+    </section>
+
+    <!-- Collaboration Features -->
+    <section>
+    <h2>Collaboration Features</h2>
+    
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleFAQ(this)">
+        <span><strong>How many people can collaborate on a document?</strong></span>
+        <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">
+        <p>There's no hard limit on collaborators. Performance may vary based on your server configuration and network conditions, but most teams work comfortably with 10-50 simultaneous editors.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleFAQ(this)">
+        <span><strong>Does Nexum have version control?</strong></span>
+        <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">
+        <p>Yes, Nexum includes built-in version control with change tracking, revision history, and the ability to revert to previous versions. You can also integrate with external version control systems.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleFAQ(this)">
+        <span><strong>Can I control who has access to my documents?</strong></span>
+        <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">
+        <p>Absolutely. Nexum provides granular permission controls including view-only, edit, and admin access levels. You can invite specific users or create team-based access groups.</p>
+        </div>
+    </div>
+    </section>
+
+    <!-- Troubleshooting -->
+    <section>
+    <h2>Troubleshooting</h2>
+    
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleFAQ(this)">
+        <span><strong>I'm having sync issues. What should I do?</strong></span>
+        <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">
+        <p>First, check your internet connection. If the problem persists, try refreshing the application or restarting. For persistent issues, check our GitHub issues page or contact support.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleFAQ(this)">
+        <span><strong>How do I report a bug?</strong></span>
+        <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">
+        <p>Visit our GitHub Issues page and create a new issue with detailed information about the problem, including your operating system, Nexum version, and steps to reproduce the bug.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleFAQ(this)">
+        <span><strong>Where can I get additional help?</strong></span>
+        <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">
+        <p>Join our community forum for peer support, check our comprehensive user manual, watch video tutorials, or contact our support team directly at support@nexum.org.</p>
+        </div>
+    </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="intro">
+    <h2>Still Need Help?</h2>
+    <p>
+        If you couldn't find the answer to your question, we're here to help. 
+        Contact us at <a href="mailto:support@nexum.org">support@nexum.org</a> or 
+        join our <a href="https://discord.gg/g9dDRRkv">community forum</a> for peer support.
+    </p>
+    </section>
+</main>
+
+<footer>
+    <p>
+    © 2025 Nexum Community |
+    <a href="https://opensource.org/license/mit">Licensed under MIT</a> |
+    <a href="FAQ.html">FAQs</a>
+    </p>
+</footer>
+
+<script>
+    function toggleFAQ(element) {
+    const answer = element.nextElementSibling;
+    const toggle = element.querySelector('.faq-toggle');
+    
+    // Close all other FAQ items
+    document.querySelectorAll('.faq-answer').forEach(item => {
+        if (item !== answer) {
+        item.classList.remove('active');
+        }
+    });
+    
+    document.querySelectorAll('.faq-toggle').forEach(item => {
+        if (item !== toggle) {
+        item.classList.remove('rotated');
+        item.textContent = '+';
+        }
+    });
+    
+    // Toggle current item
+    answer.classList.toggle('active');
+    toggle.classList.toggle('rotated');
+    toggle.textContent = toggle.classList.contains('rotated') ? '×' : '+';
+    }
+</script>
+</body>
+</html>
