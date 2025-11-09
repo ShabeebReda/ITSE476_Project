@@ -28,9 +28,55 @@ This project includes a modern, single-page web design with dedicated spaces for
 |  **Fatema Jaafar** | 202207126 |  [@fatemayaqoob](https://github.com/fatemayaqoob) |
 ---
 
-### 🌐 Visit Our Website  
+## 🧩 System & Development Information
+
+### 🔧 System Overview
+Nexum provides an easy-to-use documentation portal built entirely with **front-end web technologies**.  
+It can be hosted freely via **GitHub Pages**, making it suitable for student, academic, and open-source projects.
+
+### 💼 Development Tasks Distribution
+
+| Task | Assigned To | Status |
+|------|--------------|--------|
+| Main Page (index.html) | | ✅ Completed |
+| Users Page (users.html) |  | ✅ Completed |
+| Contributors Page (contributors.html) |  | ✅ Completed |
+| CSS Design / Styling |  | ✅ Completed |
+| Repository Setup, License, Documentation | Manar Mohammed | ✅ Completed |
+
+---
+
+## 🧱 GitHub Repository Features (Section D)
+
+This repository includes:
+
+- ✅ **Public Access:** Open-source and publicly visible  
+- ✅ **Source Code:** HTML, CSS, JS, and assets uploaded  
+- ✅ **Documentation:** README with full project details  
+- ✅ **License:** MIT License added for open-source compliance  
+- ✅ **Issues Enabled:** Bug reporting and task tracking via GitHub Issues  
+- ✅ **Project Board:** Task organization (To Do, In Progress, Done)  
+- ✅ **Task Assignment:** Each member linked to assigned issues/tasks  
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🌐 Visit Our Website
+
 👉 [Nexum](https://shabeebreda.github.io/ITSE476_Project/)
 
+---
+
+## 💬 Contact & Support
+
+For questions or contributions, please contact any of the contributors through their GitHub profiles above.
+
+---
 
 
 
